@@ -128,6 +128,7 @@ class RecipeCard extends HTMLElement {
       const imageRating = document.createElement('img');
       imageRating.setAttribute('src', `assets/images/icons/${ratingVal}-star.svg`);
       imageRating.setAttribute('alt', `${ratingVal} stars`);
+      
       rating.appendChild(imageRating);
 
       const totalReviews = document.createElement('span');
